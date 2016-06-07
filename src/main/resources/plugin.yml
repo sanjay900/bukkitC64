@@ -1,0 +1,8 @@
+name: C64
+version: 1.0 Release
+main: JaC64
+depend: [ProtocolLib, EyrePlugin]
+commands:
+    c64:
+        description: C64 related commands.
+        usage: /c64
