@@ -55,7 +55,7 @@
 			<groupId>org.spigotmc</groupId>
 			<artifactId>spigot-api</artifactId>
 			<scope>provided</scope>
-			<version>1.8.6-R0.1-SNAPSHOT</version>
+			<version>1.9.4-R0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.comphenix.protocol</groupId>
@@ -85,7 +85,6 @@
 							<goal>shade</goal>
 						</goals>
 						<configuration>
-							<keepDependenciesWithSystemScope>false</keepDependenciesWithSystemScope>
 							<keepDependenciesWithProvidedScope>false</keepDependenciesWithProvidedScope>
 							<minimizeJar>true</minimizeJar>
 						</configuration>
